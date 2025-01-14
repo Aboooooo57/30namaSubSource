@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "30Nama Subtitle Search",
+  "version": "1.0",
+    "icons": {
+    "48": "icon.png"
+  },
+  "description": "Adds a button to search subtitles on SubSource.net for movies on 30Nama.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://30nama.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://30nama.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
