@@ -23,11 +23,6 @@ Step 3: Reload the Extension
 
 After loading the extension, click the reload button in chrome://extensions/ to apply any changes.
 
-How It Works
-	•	The extension looks for a movie’s title inside an h2 tag with class h2 title and data-v-71cd868e.
-	•	It then adds a button labeled “Search Subtitle” next to the “دانلود” button.
-	•	Clicking the “Search Subtitle” button opens a new tab with a search URL to SubSource.
-
 Files
 	•	manifest.json: The configuration file for the Chrome extension.
 	•	background.js: Background script (if necessary).
